@@ -1,0 +1,39 @@
+mixin contacts()
+    #contacts.contacts-section
+        .container
+            section.contact-card
+                header.contact-card__header
+                    h2 Información de contacto
+                .contact-info
+                    .contact-info__logo
+                     img(src="static/images/logo_horizontal-normallight sin IS.jpg")
+                    .contact-info__group
+                        .contact-info__additional
+                            p Conéctese con nuestros especialistas en soporte y acceda a la ayuda que necesite.
+                            p No dude en enviarnos un correo electrónico y nos pondremos en contacto con usted 
+                            p tan pronto como podamos.
+                        .contact-info__vcard.vcard
+                            h4.fn.org DEVISE IS SA DE CV
+                            p.icon.icon_location
+                                a.adr.js-anchor(href="#gmap")
+                                    span.locality Mexicali, Baja California
+                                    | ,&nbsp;
+                                    span.country-name México
+                                    | .&nbsp;
+                            p.icon.icon_location
+                                a.adr.js-anchor(href="#gmap")
+                                    span.address Av. Río Santa María #1999 L9 Col. Valle Dorado, C.P. 21399
+                            p.icon.icon_mail
+                                a.email(href="mailto:contact@example.com") soporte@deviseis.com
+                            p.icon.icon_phone
+                                a.email(href="tel:1111111111") 686 251 4908 
+                            p.icon.icon_phone
+                                a.email(href="tel:1111111111") 686 251 5071
+                        h4 Mandanos un mensaje
+                        iframe(src="https://docs.google.com/forms/d/e/1FAIpQLSf2WUDP5OKE-E3FRIJiuBWHTnmoCw7zoCGH5OjwqvHzLAPhOg/viewform?embedded=true", width="760", height="300", frameborder="0", marginheight="0", marginwidth="0")
+                        ul.contact-info__social
+                            li
+                                a.icon.icon_in(href="https://www.linkedin.com/company/devise-is/") My Linkedin profile
+                            li
+                                a.fa.fa-envelope(href='mailto:soporte@deviseis.com') Email
+        #gmap.gmap
