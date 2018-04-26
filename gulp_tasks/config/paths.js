@@ -15,11 +15,11 @@ module.exports = {
     },
     // Build paths
     build: {
-        main: 'build',
-        html: 'build',
-        css: 'build/static/css',
-        fonts: 'build/static/fonts',
-        images: 'build/static/images',
-        js: 'build/static/js'
+        main: "docs",
+        html: "docs",
+        css: "docs/static/css",
+        fonts: "docs/static/fonts",
+        images: "docs/static/images",
+        js: "docs/static/js"
     }
 };
