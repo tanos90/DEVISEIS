@@ -1175,7 +1175,7 @@ a:hover {
 	margin-bottom: 0;
 	position: relative;
 	height: 0;
-	padding-bottom: 18.75%;
+	padding-bottom: 18%;
 	overflow: hidden;
 }
 
@@ -1709,7 +1709,7 @@ h4 {
 	height: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-bottom: 37.5%;
+	padding-bottom: 36.5%;
 }
 
 .team__member {
@@ -2043,7 +2043,7 @@ p {
 	height: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-bottom: 75%;
+	padding-bottom: 73%;
 }
 
 .testimonials__item img {
