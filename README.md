@@ -71,7 +71,7 @@ Demo: [http://website-templates.github.io/marketing-agency_one-page-template](ht
 |   │   └── screen.sass
 |   │
 │   ├── helpers/                               * helper files
-|   |   ├── logodevis.ico
+|   |   ├── favicon.ico
 |   |   └── .htaccess
 |   │
 │   ├── fonts/                                 * font sources
