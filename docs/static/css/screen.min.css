@@ -1811,8 +1811,8 @@ p {
 	font-size: 50px;
 }
 
-.home-section__headerimg {
-	content: url("../images/bg/index_bg2 - Copy.jpg");
+.home-section__header img {
+	content: url("../images/bg/logo_horizontal-degradado - Copy.png");
 }
 
 .home-section__header-label {
