@@ -1807,16 +1807,12 @@ p {
 	font-size: 16px;
 }
 
-.home-section__bg {
-	background: transparent url("../images/bg/index_bg2 - Copy.jpg") center 0 no-repeat;
-}
-
 .home-section__header h1 {
 	font-size: 50px;
 }
 
 .home-section__header img {
-	content: url("../logo_horizontal-degradado_black - Copy (3) -.png");
+	content: url("../images/logo_small_1.png");
 }
 
 .home-section__header-label {
@@ -2002,6 +1998,14 @@ p {
 
 .process__step-info {
 	top: 140px;
+}
+
+.contact-info__additional p {
+	width: 50%;
+}
+
+.contact-info__vcard {
+	width: 50%;
 }
 
 .main-footer__copyright {
