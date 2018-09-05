@@ -12,13 +12,13 @@ mixin contacts()
                             p tan pronto como podamos.
                         .contact-info__vcard.vcard
                             h4.fn.org DEVISE IS SA DE CV
-                            //p.icon.icon_location
+                            p.icon.icon_location
                                 a.adr.js-anchor(href="#gmap")
                                     span.locality Mexicali, Baja California
                                     | ,&nbsp;
                                     span.country-name México
                                     | .&nbsp;
-                           // p.icon.icon_location
+                            p.icon.icon_location
                                 a.adr.js-anchor(href="#gmap")
                                     span.address Av. Río Santa María #1999 L9 Col. Valle Dorado, C.P. 21399
                             p.icon.icon_mail
@@ -30,8 +30,11 @@ mixin contacts()
                             p.icon.icon_phone
                                 a.email(href="tel:+526862514908") 686 251 4908 
                             p.icon.icon_phone
-                                a.email(href="tel:+526862515071") 686 251 5071//
-                        iframe(src="https://services.cognitoforms.com/f/xu6EBXAb8kiiz3jXs30hOg?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="959" width="100%")                        
+                                a.email(href="tel:+526862515071") 686 251 5071
+                        .cognito
+                            script(src='https://services.cognitoforms.com/s/xu6EBXAb8kiiz3jXs30hOg')
+                            script.
+                                Cognito.load("forms", { id: "1" });
                         ul.contact-info__social
                             li
                                 a.icon.icon_in(href="https://www.linkedin.com/company/devise-is/") My Linkedin profile
